@@ -1,0 +1,47 @@
+title: "JS SBU"
+email: jsteam.bs23@gmail.com
+timezone: GMT+6
+baseurl: "/js-sbu"
+permalink: "/:title/"
+logo: 'assets/images/logo.png'
+favicon: 'assets/images/favicon.ico'
+author: JS SBU
+paginate: 30
+disqus: 'bsshopifydemowebsite'
+locale: en_us
+lang: en_us
+feed_items: 10
+feed_update_period: daily
+feed_update_frequency: 1
+markdown: kramdown
+kramdown:
+  syntax_highlighter_opts:
+    disable: true
+sass:
+  sass_dir: _sass
+  style: :compressed
+ganalytics: UA-113961478-1
+
+# Authors
+authors:
+  JS_SBU:
+    name: Sal
+    display_name: Sal
+    avatar: 'assets/images/sal.png'
+    email: jsteam.bs23@gmail.com
+    web: https://brainstation-23.com/
+    description: "Author of Affiliates, JavaScript SBU of Brain Station 23 ltd."
+
+# Social
+social:
+  LinkedIn: https://www.linkedin.com/company/brain-station-23/
+  facebook: https://www.facebook.com/brainstation23/
+  twitter: https://twitter.com/BrainStation23
+
+# Plugins
+plugins: 
+- jekyll-paginate
+- jekyll-sitemap
+- jekyll-feed
+- jekyll-seo-tag
+- jekyll-archives
