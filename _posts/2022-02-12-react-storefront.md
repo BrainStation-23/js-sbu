@@ -1,9 +1,9 @@
 ---
 layout: post
-title:  "Is Intelligence Enough"
+title:  "React Storefront"
 author: sal
-categories: [ Jekyll, tutorial ]
-image: assets/images/5.jpg
+categories: [ theme, e-commerce, react, storefront ]
+image: assets/images/react-storefront.jpg
 ---
 Education must also train one for quick, resolute and effective thinking. To think incisively and to think for one's self is very difficult. 
 

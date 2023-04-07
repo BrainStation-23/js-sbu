@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Powerful things you can do with the Markdown editor"
+title:  "Money Manager 23"
 author: sal
-categories: [ Jekyll, tutorial ]
-image: assets/images/4.jpg
+categories: [ money manager, money, expense, tracker, app ]
+image: assets/images/meney-manager-23.jpg
 ---
-There are lots of powerful things you can do with the Markdown editor
+There are lots of money manager
 
 If you've gotten pretty comfortable with writing in Markdown, then you may enjoy some more advanced tips about the types of things you can do with Markdown!
 
@@ -34,7 +34,7 @@ There are two types of code elements which can be inserted in Markdown, the firs
 If you want to get really fancy, you can even add syntax highlighting using Rouge.
 
 
-![walking]({{ site.baseurl }}/assets/images/3.jpg)
+![walking]({{ site.baseurl }}/assets/images/bs-commerce.jpg)
 
 ## Reference lists
 
@@ -46,4 +46,5 @@ Another way to insert links in markdown is using reference lists. You might want
 
 Perhaps the best part of Markdown is that you're never limited to just Markdown. You can write HTML directly in the Markdown editor and it will just work as HTML usually does. No limits! Here's a standard YouTube embed code as an example:
 
-<p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p>
+<!-- <p><iframe style="width:100%;" height="315" src="https://www.youtube.com/embed/Cniqsc9QfDo?rel=0&amp;showinfo=0" frameborder="0" allowfullscreen></iframe></p> -->
+<p><iframe width="560" height="315" src="https://www.youtube.com/embed/IicUjFIHKJ0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
