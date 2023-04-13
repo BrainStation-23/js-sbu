@@ -25,6 +25,10 @@
 <lastmod>2023-04-07T00:00:00-06:00</lastmod>
 </url>
 <url>
+<loc>http://localhost:4000/js-sbu/shopify-theme-bloom/</loc>
+<lastmod>2023-04-10T00:00:00-06:00</lastmod>
+</url>
+<url>
 <loc>http://localhost:4000/js-sbu/about/</loc>
 </url>
 <url>
@@ -38,5 +42,8 @@
 </url>
 <url>
 <loc>http://localhost:4000/js-sbu/privacy-policy/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/js-sbu/shopify-products/</loc>
 </url>
 </urlset>

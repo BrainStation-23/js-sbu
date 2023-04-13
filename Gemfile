@@ -22,3 +22,6 @@ group :jekyll_plugins do
     gem 'tzinfo'
 end
 gem "webrick", "~> 1.8"
+
+# Run gem file
+#bundle exec jekyll serve

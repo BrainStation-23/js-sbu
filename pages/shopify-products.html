@@ -1,0 +1,62 @@
+---
+layout: default
+title: Shopify Products
+permalink: "/shopify-products/"
+comments: false
+---
+
+<!-- Home Intro
+================================================== -->
+{% if page.url == "/shopify-products/" %} 
+<div class="rounded mb-5 hero">
+  <div class="row align-items-center justify-content-between">
+    <div class="col-md-6">
+      <h1 class="font-weight-bold mb-4 serif-font">Let's check out Brain Station 23 Ltd.'s JS-SBU Shopify products.</h1>
+      <p class="lead mb-4">All the Shopify products developed by JS-SBU of Brain Station 23 ltd, including shopify themes and apps, and more, are comprehensive in this repository.</p>
+      <!-- <a href="{{site.baseurl}}/about" class="btn btn-white text-blue px-5 btn-lg">About us</a> -->
+    </div>
+    <div class="col-md-6 text-right pl-0 pl-lg-4">
+      <img class="intro" height="500" src="{{site.baseurl}}/assets/images/intro-shopify.svg">      
+    </div>
+  </div>
+</div>
+{% endif %}
+
+<!-- Featured
+================================================== -->
+<section class="row">
+  {% for post in site.posts.shopify %}
+      {% if post.featured == true %}
+          <div class="col-md-4 mb-5">
+          {% include postbox.html %}
+          </div>
+      {% endif %}
+  {% endfor %}
+  </div>
+</section>
+
+<!-- Posts List with Sidebar (except featured)
+================================================== -->
+<section class="row">
+  <div class="col-sm-8">
+    <div class="row">
+      {% for post in paginator.posts %}
+      {% unless post.featured == true %}
+      <div class="col-md-6 mb-5">
+        {% include postbox.html %}
+      </div>
+      {% endunless %}
+      {% endfor %}
+    </div>
+    <!-- Pagination -->
+    <div class="bottompagination">
+      <span class="navigation" role="navigation">
+          {% include pagination.html %}
+      </span>
+    </div>
+  </div>
+  <div class="col-sm-4">
+    {% include sidebar.html %}
+  </div>
+</section>
+

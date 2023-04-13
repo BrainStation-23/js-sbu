@@ -4,6 +4,14 @@ topmenu:
 - title: Home
   url: ""
 
+- submenu:
+  - title: Products
+  - items:
+    - title: Shopify
+      url: "shopify-products/"
+    - title: Others
+      url: "others/"
+
 - title: About
   url: "about/"
 
