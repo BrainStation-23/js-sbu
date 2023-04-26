@@ -4,6 +4,7 @@ title:  "Bloom: The Perfect Shopify Theme for Your Online Grocery Shop"
 permalink: /shopify/:title
 categories: [ Shopify, theme ]
 image: assets/images/shopify-theme-bloom.jpg
+author: JS_SBU
 ---
 In today's fast-paced world, more and more people are opting for online grocery shopping to save time and effort. As an online grocery store owner, it's essential to provide a seamless shopping experience to your customers. One of the most critical aspects of this is choosing the right Shopify theme for your website. Bloom is a Shopify theme that is perfect for a grocery shop online business.
 

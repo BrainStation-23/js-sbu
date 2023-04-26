@@ -3,6 +3,7 @@ layout: post
 title:  "Shopify: The Ideal E-commerce Platform for Your Business"
 categories: [ Shopify, products ]
 image: assets/images/shopify-product.jpg
+author: JS_SBU
 ---
 In today's digital age, having a strong online presence is essential for any business looking to succeed. With so many e-commerce platforms available, it can be challenging to know which one to choose. However, Shopify has emerged as one of the most popular e-commerce platforms, thanks to its ease of use and robust features.
 
@@ -27,5 +28,5 @@ All Shopify products developed by Brain Station 23 Ltd: [Click here to visit]
 
 In conclusion, Shopify is an excellent choice for businesses looking to create an online store and sell their products. Its ease of use, robust features, and scalability make it an attractive option for businesses of all sizes. And with a range of products developed by the JavaScript SBU unit of Brain Station 23 Ltd, businesses can create a unique and engaging online store that stands out from the competition.
 
-[A Shopify theme designed for grocery shop online businesses]: https://play.google.com/store/apps/details?id=com.moneymanager23
-[Click here to visit]: ({{ site.baseurl }}/shopify)
+[A Shopify theme designed for grocery shop online businesses]: {{ site.baseurl }}/shopify/shopify-theme-bloom
+[Click here to visit]: {{ site.baseurl }}/shopify

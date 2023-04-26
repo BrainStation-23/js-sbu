@@ -4,6 +4,7 @@ title:  "Money Manager 23: The Ultimate Budgeting App for Android and iOS"
 author: sal
 categories: [ money manager, money, expense, tracker, app ]
 image: assets/images/meney-manager-23.jpg
+author: JS_SBU
 ---
 Why Money Manager 23 App?
 

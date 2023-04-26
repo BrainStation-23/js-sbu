@@ -4,6 +4,7 @@ title:  "Grocery 23: A Next.js React Storefront Theme for E-Commerce Grocery Bus
 author: sal
 categories: [ theme, e-commerce, react, storefront, next.js ]
 image: assets/images/react-storefront.jpg
+author: JS_SBU
 ---
 In today's digital age, having an online presence is crucial for businesses of all types and sizes. With the rise of e-commerce, it has become more important than ever for businesses to have an attractive and user-friendly online store. If you are in the grocery business and looking to take your business online, then "Grocery 23" is the perfect solution for you.
 
@@ -15,7 +16,8 @@ Another great feature of "Grocery 23" is its flexibility. This theme is a standa
 
 The JS-SBU unit of Brain Station 23 Ltd has designed "Grocery 23" with the needs of grocery businesses in mind. This theme includes features like product categorization, search functionality, and a customizable homepage that you can use to showcase your top products.
 
-In addition to all these features, "Grocery 23" also includes a demo link, so you can see the theme in action before making a purchase. This way, you can ensure that this theme is the right fit for your business before committing to it.
+In addition to all these features, "Grocery 23" also includes a [demo link], so you can see the theme in action before making a purchase. This way, you can ensure that this theme is the right fit for your business before committing to it.
 
 In conclusion, if you are in the grocery business and looking to take your business online, then "Grocery 23" is the perfect solution for you. With its clean and modern design, flexibility, and focus on user-friendliness, this theme is sure to help you create an attractive and functional online store. So why wait? Check out "Grocery 23" today and take your business to the next level.
 
+[demo link]:https://bs-commerce-storefront.vercel.app/

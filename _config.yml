@@ -6,7 +6,7 @@ baseurl: "/js-sbu"
 permalink: "/:title/"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
-author: JS SBU
+author: 'JS SBU'
 paginate: 30
 disqus: 'jssbusite'
 locale: en_us
@@ -26,12 +26,12 @@ ganalytics: UA-113961478-1
 # Authors
 authors:
   JS_SBU:
-    name: JS SBU
+    name: JS_SBU
     display_name: SJ SBU
-    avatar: 'assets/images/sal.png'
+    avatar: 'assets/images/logo.png'
     email: js.team@brainstation-23.com
     web: https://brainstation-23.com/
-    description: "Author of Affiliates, JavaScript SBU of Brain Station 23 ltd."
+    description: "JS-SBU unit at Brain Station 23 Ltd is dedicated to using the latest JavaScript technologies to create high-quality, efficient, and scalable applications for their clients. With their expertise in Node.js, React, Angular, ReactNative, Shopify, and Flutter, they are able to deliver customized solutions that meet their clients' specific needs and help them achieve their business goals."
 
 # Social
 social:

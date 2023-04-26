@@ -4,6 +4,7 @@ title:  "Introducing BS-Commerce: The Next Generation E-commerce Platform"
 author: sal
 categories: [ e-commerce, business, platform ]
 image: assets/images/bs-commerce.jpg
+author: JS_SBU
 ---
 As e-commerce continues to grow in popularity, businesses are constantly searching for the best platforms to create their online stores. One of the latest e-commerce platforms to hit the market is BS-Commerce, a new platform developed entirely using JavaScript technologies such as Next.js and React.js, and powered by MongoDB as a database.
 
