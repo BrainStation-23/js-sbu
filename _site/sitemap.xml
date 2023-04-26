@@ -2,15 +2,15 @@
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>http://localhost:4000/js-sbu/other-products/</loc>
-<lastmod>2018-01-12T00:00:00-06:00</lastmod>
+<lastmod>2023-04-01T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/js-sbu/react-storefront/</loc>
-<lastmod>2022-02-12T00:00:00-06:00</lastmod>
+<lastmod>2023-04-02T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/js-sbu/tracker-23/</loc>
-<lastmod>2023-03-30T00:00:00-06:00</lastmod>
+<lastmod>2023-04-04T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/js-sbu/bs-commerce-platform/</loc>
@@ -21,12 +21,12 @@
 <lastmod>2023-04-07T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/js-sbu/money-manager-23/</loc>
-<lastmod>2023-04-07T00:00:00-06:00</lastmod>
+<loc>http://localhost:4000/js-sbu/shopify/shopify-theme-bloom</loc>
+<lastmod>2023-04-10T00:00:00-06:00</lastmod>
 </url>
 <url>
-<loc>http://localhost:4000/js-sbu/shopify-theme-bloom/</loc>
-<lastmod>2023-04-10T00:00:00-06:00</lastmod>
+<loc>http://localhost:4000/js-sbu/money-manager-23/</loc>
+<lastmod>2023-04-14T00:00:00-06:00</lastmod>
 </url>
 <url>
 <loc>http://localhost:4000/js-sbu/about/</loc>
@@ -44,6 +44,6 @@
 <loc>http://localhost:4000/js-sbu/privacy-policy/</loc>
 </url>
 <url>
-<loc>http://localhost:4000/js-sbu/shopify-products/</loc>
+<loc>http://localhost:4000/js-sbu/shopify/</loc>
 </url>
 </urlset>

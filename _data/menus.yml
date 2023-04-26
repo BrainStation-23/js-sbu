@@ -8,7 +8,7 @@ topmenu:
   - title: Products
   - items:
     - title: Shopify
-      url: "shopify-products/"
+      url: "shopify/"
     - title: Others
       url: "others/"
 

@@ -1,5 +1,6 @@
 title: "JS SBU"
-email: jsteam.bs23@gmail.com
+email: js.team@brainstation-23.com
+formskey: xbjeqboj
 timezone: GMT+6
 baseurl: "/js-sbu"
 permalink: "/:title/"
@@ -7,7 +8,7 @@ logo: 'assets/images/logo.png'
 favicon: 'assets/images/favicon.ico'
 author: JS SBU
 paginate: 30
-disqus: 'bsshopifydemowebsite'
+disqus: 'jssbusite'
 locale: en_us
 lang: en_us
 feed_items: 10
@@ -28,7 +29,7 @@ authors:
     name: JS SBU
     display_name: SJ SBU
     avatar: 'assets/images/sal.png'
-    email: jsteam.bs23@gmail.com
+    email: js.team@brainstation-23.com
     web: https://brainstation-23.com/
     description: "Author of Affiliates, JavaScript SBU of Brain Station 23 ltd."
 
