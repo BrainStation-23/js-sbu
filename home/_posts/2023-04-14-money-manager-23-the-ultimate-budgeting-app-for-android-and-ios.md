@@ -1,7 +1,6 @@
 ---
 layout: post
 title:  "Money Manager 23: The Ultimate Budgeting App for Android and iOS"
-author: sal
 categories: [ money manager, money, expense, tracker, app ]
 image: assets/images/meney-manager-23.jpg
 author: JS_SBU
@@ -10,9 +9,15 @@ Why Money Manager 23 App?
 
 Managing personal finances can be a daunting task, especially when you have multiple wallets and need to keep track of your daily expenses. But with the Money Manager 23 app, managing your finances has never been easier. Money Manager 23 is a mobile app available for Android and iOS that lets you add multiple wallets and keep track of your expenses.
 
+![Dashboard]({{ site.baseurl }}/assets/images/money-manager-dashboard.jpg){:style="display:block; margin-left:auto; margin-right:auto" :height="auto" width="200px"}
+
 One of the key features of Money Manager 23 is its ability to add and track daily expenses. The app allows you to add expenses by category, and you can even add categories yourself as needed. This makes it easy to track where your money is going and identify areas where you can cut back.
 
+![Dashboard]({{ site.baseurl }}/assets/images/money-manager-categories.jpg){:style="display:block; margin-left:auto; margin-right:auto" :height="auto" width="200px"}
+
 Another great feature of Money Manager 23 is its ability to generate reports based on your expenses. You can easily see how much you are spending in each category and make adjustments to your budget as needed. This feature is especially useful for those who want to get a better understanding of their spending habits.
+
+![Dashboard]({{ site.baseurl }}/assets/images/money-manager-1day-expense.jpg){:style="display:block; margin-left:auto; margin-right:auto" :height="auto" width="200px"}
 
 Money Manager 23 also has a free version of the app available for download. In the free version, all your information is stored locally, so there is no need to worry about any third-party involvement. This means that you can rest assured that your personal and financial information is secure.
 
