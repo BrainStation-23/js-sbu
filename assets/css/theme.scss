@@ -550,6 +550,11 @@ background-color: #fff;
 
 img {max-width:100%;height: auto;}
 
+.article-post img {
+    // margin-left: 30% !important;
+    align-self: center;
+}
+
 .bottompagination span.navigation a {
 	background: #fdd93d;
     color: #333;
