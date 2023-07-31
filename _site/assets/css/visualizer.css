@@ -11,9 +11,9 @@
 }
 
 .title__section {
-  background-image: url("https://brainstation-23.com/wp-content/uploads/2021/01/about-us.jpg");
+  background-image: url("../images/intro.svg");
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -21,39 +21,39 @@
 }
 
 .main__heading {
-  color: #ffffff;
+  color: #de42e3;
   font-size: 36px;
   padding: 16px;
 }
 
-.privacy__content{
-    padding-top: 16px;
-    font-size: 24px;
+.privacy__content {
+  padding-top: 16px;
+  font-size: 24px;
 }
 
-.personal__info_heading{
-    font-size: 28px;
-    font-weight: bold;
-    padding-top: 20px;
+.personal__info_heading {
+  font-size: 28px;
+  font-weight: bold;
+  padding-top: 20px;
 }
 
-.privacy__body{
-    margin-top: 28px; 
+.privacy__body {
+  margin-top: 28px;
 }
 
-.privacy__body_title{
+.privacy__body_title {
   font-size: 20px;
   margin-bottom: 12px;
 }
 
-.privacy__body_description{
-    font-size: 18px;
+.privacy__body_description {
+  font-size: 18px;
 }
 
-.privacy__inner_content{
-    margin-bottom: 12px;
+.privacy__inner_content {
+  margin-bottom: 12px;
 }
 
-.privacy__inner_title{
-    font-weight: bold;
+.privacy__inner_title {
+  font-weight: bold;
 }
