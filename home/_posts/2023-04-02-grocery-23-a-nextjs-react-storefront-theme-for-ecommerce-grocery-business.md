@@ -14,7 +14,7 @@ One of the standout features of "Grocery 23" is its simplicity. This theme is de
 
 Another great feature of "Grocery 23" is its flexibility. This theme is a standalone theme without any backend integration, which means that you can easily integrate it with any backend of your choice. Whether you are using nop-commerce, WooCommerce, or any other e-commerce platform, you can easily use "Grocery 23" as your storefront theme.
 
-The JS-SBU unit of Brain Station 23 Ltd has designed "Grocery 23" with the needs of grocery businesses in mind. This theme includes features like product categorization, search functionality, and a customizable homepage that you can use to showcase your top products.
+The JS-SBU unit of Brain Station 23 PLC has designed "Grocery 23" with the needs of grocery businesses in mind. This theme includes features like product categorization, search functionality, and a customizable homepage that you can use to showcase your top products.
 
 In addition to all these features, "Grocery 23" also includes a [demo link], so you can see the theme in action before making a purchase. This way, you can ensure that this theme is the right fit for your business before committing to it.
 
