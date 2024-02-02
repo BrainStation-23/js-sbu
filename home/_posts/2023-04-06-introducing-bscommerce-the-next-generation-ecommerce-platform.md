@@ -16,7 +16,7 @@ Secondly, JavaScript technologies offer unparalleled flexibility and customizati
 
 Finally, MongoDB offers numerous benefits as a database for an e-commerce platform. MongoDB is a highly scalable and flexible database that offers fast read and write speeds, making it ideal for an e-commerce platform. Additionally, MongoDB is highly customizable, meaning that businesses can easily configure it to meet their specific needs.
 
-Developed by the JavaScript SBU unit of Brain Station 23 Ltd, BS-Commerce is a highly customizable and powerful e-commerce platform. This platform offers numerous benefits over other e-commerce platforms and is ideal for businesses looking to create a unique and engaging online store.
+Developed by the JavaScript SBU unit of Brain Station 23 PLC, BS-Commerce is a highly customizable and powerful e-commerce platform. This platform offers numerous benefits over other e-commerce platforms and is ideal for businesses looking to create a unique and engaging online store.
 
 ### Some of the key features of BS-Commerce include:
 

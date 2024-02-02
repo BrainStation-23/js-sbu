@@ -5,7 +5,7 @@ permalink: "/about/"
 image: assets/images/about.png
 ---
 
-The JS-SBU unit at Brain Station 23 Ltd is a team of highly skilled developers and engineers who specialize in using various JavaScript technologies such as Node.js, React, Angular, ReactNative, and Shopify to build robust and efficient applications for their clients.
+The JS-SBU unit at Brain Station 23 PLC is a team of highly skilled developers and engineers who specialize in using various JavaScript technologies such as Node.js, React, Angular, ReactNative, and Shopify to build robust and efficient applications for their clients.
 
 Node.js is a server-side platform that allows developers to build scalable network applications using JavaScript. The JS-SBU unit uses Node.js to build back-end systems that are reliable, fast, and scalable, and can handle a large number of requests without compromising on performance.
 
@@ -18,6 +18,6 @@ Shopify is an e-commerce platform that allows businesses to create online stores
 
 Flutter is another cross-platform mobile application development framework that is gaining popularity among developers. The JS-SBU unit uses Flutter to create native mobile applications for iOS and Android that are visually appealing, responsive, and easy to use.
 
-Overall, the JS-SBU unit at Brain Station 23 Ltd is dedicated to using the latest JavaScript technologies to create high-quality, efficient, and scalable applications for their clients. With their expertise in Node.js, React, Angular, ReactNative, Shopify, and Flutter, they are able to deliver customized solutions that meet their clients' specific needs and help them achieve their business goals.
+Overall, the JS-SBU unit at Brain Station 23 PLC is dedicated to using the latest JavaScript technologies to create high-quality, efficient, and scalable applications for their clients. With their expertise in Node.js, React, Angular, ReactNative, Shopify, and Flutter, they are able to deliver customized solutions that meet their clients' specific needs and help them achieve their business goals.
 
 
