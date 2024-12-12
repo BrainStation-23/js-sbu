@@ -16,7 +16,7 @@ comments: false
     background-color: #f5f5f5;
     padding: 1rem;
     border-radius: 20px;
-    width: 20%;
+    width: 25%;
   }
   details.list-parent > summary {
     list-style-type: none;
@@ -47,11 +47,19 @@ comments: false
   .theme-doc__main__body {
     width: 70%;
   }
-  .theme-doc__main__body > ul {
+  .theme-doc__main__body ul,
+  .theme-doc__main__body ol {
     margin-left: 1rem;
   }
   .theme-doc__main__body > h1 {
     margin-bottom: 2rem;
+  }
+  .theme-doc__main__body > article {
+    margin-left: 1rem;
+  }
+  .theme-doc__main__body a {
+    text-decoration: underline;
+    color: blue;
   }
   /* Main body end */
 </style>
@@ -62,7 +70,26 @@ comments: false
       <li>
         <details class="list-parent">
           <summary>
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M8.79289 6.29289C9.18342 5.90237 9.81658 5.90237 10.2071 6.29289L15.2071 11.2929C15.5976 11.6834 15.5976 12.3166 15.2071 12.7071L10.2071 17.7071C9.81658 18.0976 9.18342 18.0976 8.79289 17.7071C8.40237 17.3166 8.40237 16.6834 8.79289 16.2929L13.0858 12L8.79289 7.70711C8.40237 7.31658 8.40237 6.68342 8.79289 6.29289Z" fill="#000000"></path> </g></svg>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.79289 6.29289C9.18342 5.90237 9.81658 5.90237 10.2071 6.29289L15.2071 11.2929C15.5976 11.6834 15.5976 12.3166 15.2071 12.7071L10.2071 17.7071C9.81658 18.0976 9.18342 18.0976 8.79289 17.7071C8.40237 17.3166 8.40237 16.6834 8.79289 16.2929L13.0858 12L8.79289 7.70711C8.40237 7.31658 8.40237 6.68342 8.79289 6.29289Z"
+                  fill="#000000"
+                ></path>
+              </g>
+            </svg>
             <p class="link-title">Getting started</p>
           </summary>
           <ul>
@@ -75,12 +102,31 @@ comments: false
       <li>
         <details class="list-parent">
           <summary>
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M8.79289 6.29289C9.18342 5.90237 9.81658 5.90237 10.2071 6.29289L15.2071 11.2929C15.5976 11.6834 15.5976 12.3166 15.2071 12.7071L10.2071 17.7071C9.81658 18.0976 9.18342 18.0976 8.79289 17.7071C8.40237 17.3166 8.40237 16.6834 8.79289 16.2929L13.0858 12L8.79289 7.70711C8.40237 7.31658 8.40237 6.68342 8.79289 6.29289Z" fill="#000000"></path> </g></svg>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.79289 6.29289C9.18342 5.90237 9.81658 5.90237 10.2071 6.29289L15.2071 11.2929C15.5976 11.6834 15.5976 12.3166 15.2071 12.7071L10.2071 17.7071C9.81658 18.0976 9.18342 18.0976 8.79289 17.7071C8.40237 17.3166 8.40237 16.6834 8.79289 16.2929L13.0858 12L8.79289 7.70711C8.40237 7.31658 8.40237 6.68342 8.79289 6.29289Z"
+                  fill="#000000"
+                ></path>
+              </g>
+            </svg>
             <p class="link-title">Sections</p>
           </summary>
           <ul>
             <li>
-              <a href="#header">Header/Navigation</a>
+              <a href="#header">Header/navigation</a>
             </li>
             <li>
               <a href="#footer">Footer</a>
@@ -110,7 +156,7 @@ comments: false
               <a href="#newsletter">Newsletter</a>
             </li>
             <li>
-              <a href="#promotional-content">Promotional content</a>
+              <a href="#promotional-content">Promotional campaign</a>
             </li>
           </ul>
         </details>
@@ -118,7 +164,26 @@ comments: false
       <li>
         <details class="list-parent">
           <summary>
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M8.79289 6.29289C9.18342 5.90237 9.81658 5.90237 10.2071 6.29289L15.2071 11.2929C15.5976 11.6834 15.5976 12.3166 15.2071 12.7071L10.2071 17.7071C9.81658 18.0976 9.18342 18.0976 8.79289 17.7071C8.40237 17.3166 8.40237 16.6834 8.79289 16.2929L13.0858 12L8.79289 7.70711C8.40237 7.31658 8.40237 6.68342 8.79289 6.29289Z" fill="#000000"></path> </g></svg>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.79289 6.29289C9.18342 5.90237 9.81658 5.90237 10.2071 6.29289L15.2071 11.2929C15.5976 11.6834 15.5976 12.3166 15.2071 12.7071L10.2071 17.7071C9.81658 18.0976 9.18342 18.0976 8.79289 17.7071C8.40237 17.3166 8.40237 16.6834 8.79289 16.2929L13.0858 12L8.79289 7.70711C8.40237 7.31658 8.40237 6.68342 8.79289 6.29289Z"
+                  fill="#000000"
+                ></path>
+              </g>
+            </svg>
             <p class="link-title">Pages & Template</p>
           </summary>
           <ul>
@@ -137,7 +202,26 @@ comments: false
       <li>
         <details class="list-parent">
           <summary>
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M8.79289 6.29289C9.18342 5.90237 9.81658 5.90237 10.2071 6.29289L15.2071 11.2929C15.5976 11.6834 15.5976 12.3166 15.2071 12.7071L10.2071 17.7071C9.81658 18.0976 9.18342 18.0976 8.79289 17.7071C8.40237 17.3166 8.40237 16.6834 8.79289 16.2929L13.0858 12L8.79289 7.70711C8.40237 7.31658 8.40237 6.68342 8.79289 6.29289Z" fill="#000000"></path> </g></svg>
+            <svg
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+              <g
+                id="SVGRepo_tracerCarrier"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              ></g>
+              <g id="SVGRepo_iconCarrier">
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M8.79289 6.29289C9.18342 5.90237 9.81658 5.90237 10.2071 6.29289L15.2071 11.2929C15.5976 11.6834 15.5976 12.3166 15.2071 12.7071L10.2071 17.7071C9.81658 18.0976 9.18342 18.0976 8.79289 17.7071C8.40237 17.3166 8.40237 16.6834 8.79289 16.2929L13.0858 12L8.79289 7.70711C8.40237 7.31658 8.40237 6.68342 8.79289 6.29289Z"
+                  fill="#000000"
+                ></path>
+              </g>
+            </svg>
             <p class="link-title">Theme settings</p>
           </summary>
           <ul>
@@ -151,23 +235,7 @@ comments: false
               <a href="#item-cards">Item cards</a>
             </li>
             <li>
-              <a href="#common-elements">Common elements</a>
-            </li>
-            <li>
-              <a href="#cart">Cart</a>
-            </li>
-          </ul>
-        </details>
-      </li>
-      <li>
-        <details class="list-parent">
-          <summary>
-            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M8.79289 6.29289C9.18342 5.90237 9.81658 5.90237 10.2071 6.29289L15.2071 11.2929C15.5976 11.6834 15.5976 12.3166 15.2071 12.7071L10.2071 17.7071C9.81658 18.0976 9.18342 18.0976 8.79289 17.7071C8.40237 17.3166 8.40237 16.6834 8.79289 16.2929L13.0858 12L8.79289 7.70711C8.40237 7.31658 8.40237 6.68342 8.79289 6.29289Z" fill="#000000"></path> </g></svg>
-            <p class="link-title">General</p>
-          </summary>
-          <ul>
-            <li>
-              <a href="#update-theme">Updating your theme</a>
+              <a href="#common-elements">Cart & Other common elements</a>
             </li>
           </ul>
         </details>
@@ -175,15 +243,22 @@ comments: false
     </ul>
   </nav>
   <article id="introduction" class="theme-doc__main__body">
-    <h1>Welcome to bloom</h1>
+    <h1>Welcome to Bloom</h1>
     <p>
-      Welcome to the documentation for the Bloom Shopify theme! This guide is designed to help you make the most of the theme’s features and customization options to create a stunning and functional online store.
+      Welcome to the documentation for the Bloom Shopify theme! This guide is
+      designed to help you make the most of the theme’s features and
+      customization options to create a stunning and functional online store.
     </p>
-    <img src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png" alt="Home page image goes here" />
-    <p>The theme is thoughtfully crafted with a balance of elegance and functionality, catering to businesses that require a highly flexible and customizable design to showcase their products and services effectively.</p>
-    <h4>
-      Key features
-    </h4>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Home page image goes here"
+    />
+    <p>
+      The theme is thoughtfully crafted with a balance of elegance and
+      functionality, catering to businesses that require a highly flexible and
+      customizable design to showcase their products and services effectively.
+    </p>
+    <h4>Key features</h4>
     <ul>
       <li>Dynamic layout</li>
       <li>Dynamic color</li>
@@ -192,947 +267,1249 @@ comments: false
       <li>Multiple language support</li>
     </ul>
   </article>
-  <article id="features" class="theme-doc__main__body">
-    <h1>Features</h1>
+  <article id="header" class="theme-doc__main__body">
+    <h1>Header/navigation</h1>
+    <p>
+      The header of your store is often the first point of interaction for your
+      customers. It should be clear, well structured, intuitive and reflective
+      of your brand’s style.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="header image goes here"
+    />
+    <p>Here are the steps to cutomize the header in Bloom theme</p>
+    <h4>Setting up the header</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <p>
+            <b>Select the Header Section:</b> In the theme editor, click on
+            ‘Header’ to begin customizing your store’s header.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="Navigate to theme editor header image goes here"
+          />
+        </li>
+        <li>
+          <p>
+            <b>Upload Your Logo:</b> Upload a high-resolution version of your
+            logo. Adjust the width and placement to suit your design
+            preferences.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="theme settings logo image goes here"
+          />
+        </li>
+        <li>
+          <p>
+            <b>Configure Navigation:</b> Select your main menu. This needs to be
+            previously created in the Shopify admin area, under ‘Content’ and
+            then ‘Menus’.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="menu settings image goes here"
+          />
+          <p>
+            Adjust the texts, links and nestings to ensure the navigation is
+            user-friendly and accessible.
+          </p>
+        </li>
+        <li>
+          <b>Preview and Test:</b> Always preview your header on various devices
+          to ensure it displays correctly and is functional across desktop and
+          mobile platforms.
+        </li>
+        <li>
+          <b>Publish Your Changes:</b> Once satisfied with the configuration,
+          click ‘Save’, and then ‘Publish’ to update your live site.
+        </li>
+      </ol>
+    </article>
+    <p>
+      Properly setting up your header will guide visitors seamlessly through
+      their shopping experience, reflecting the professionalism and style of
+      your brand.
+    </p>
+    <h4>Currency/language selector</h4>
+    <p>
+      The header section contains settings to enable with currency/language
+      dropdowns on header only. This shown on both mobile and desktop depending
+      on the settings chosen. To show the currency/language pickers more overtly
+      within the header on desktop, adjust the ‘Show localization options’
+      settings in the header section.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="localization option image goes here"
+    />
+    <h4>Announcement bar</h4>
+    <p>
+      The announcement bar is a versatile tool within your Bloom theme that
+      allows you to communicate important information to your customers directly
+      on your homepage or across different pages.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Announcement bar image goes here"
+    />
+    <p>
+      This can include a simple text or a link to another page or some external
+      page. To add a text or link navigate to the announcement bar section in
+      the header group from your theme editor. Add a block under the
+      announcement bar. Adjust the text and link to target your audience
+      effectively.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Announcement bar settings image goes here"
+    />
+  </article>
+  <article id="footer" class="theme-doc__main__body">
+    <h1>Footer</h1>
+    <p>
+      The Footer section of your Shopify store serves as a crucial area for
+      displaying important information like contact details, quick links, and
+      social media icons.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="footer image goes here"
+    />
+    <h4>Setting up the Footer section</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <p>
+            <b>Navigate to the Footer Section:</b> In the theme editor sidebar,
+            scroll to the bottom and click on ‘Footer’ to expand the section
+            settings.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Configure General Settings:</b>
+          </p>
+          <ul>
+            <li>
+              <b>Email singup:</b> Enable this option to display subcribe to
+              marketing section at the bottom of your store. Subscribers added
+              automatically to your ‘accepted marketing’ customer list.
+              <a
+                href="https://help.shopify.com/en/manual/customers/manage-customers"
+                >Learn more</a
+              >
+            </li>
+            <li>
+              <b>Policy links:</b> Enable this option to plolicies links in your
+              footer. You can customize your policies pages from your shopify
+              admin > settins > policies.
+            </li>
+            <li>
+              <b>Logo :</b> Enable this option to show your logo on the brand
+              information block in the footer. You can set up a heading to show
+              when the logo is disabled.
+            </li>
+          </ul>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="footer settings image goes here"
+          />
+        </li>
+        <li>
+          <p>
+            <b>Add Blocks:</b> Click ‘Add block’ to include various types of
+            content such as text, links, menus, or social media icons.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="footer add blocks image goes here"
+          />
+          <p>
+            For each block, enter the required details. For instance, link menus
+            to relevant pages like ‘Contact Us’, ‘Privacy Policy’, or ‘FAQ’.
+          </p>
+        </li>
+        <li>
+          <b>Customize the Layout:</b> Choose the number of columns for the
+          footer to structure the content based on your preference and the
+          importance of the information displayed. Adjust the background color
+          and text color to match your brand’s styling guidelines.
+        </li>
+        <li>
+          <b>Preview and Save:</b> Use the preview option to see how the footer
+          looks on different devices. Once satisfied with the configuration,
+          click ‘Save’ to apply the changes.
+        </li>
+      </ol>
+    </article>
+    <p>
+      Ensure the footer content is organized in a way that is easy for customers
+      to navigate. Regularly update the footer information to include the latest
+      links, company information, or social media profiles.
+    </p>
+  </article>
+  <article id="slideshow" class="theme-doc__main__body">
+    <h1>Slideshow</h1>
+    <p>
+      The Slideshow section is a dynamic and engaging way to showcase multiple
+      images in a carousel format, making it ideal for highlighting featured
+      products, promotions, or brand imagery directly on your store’s homepage.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Slideshow image goes here"
+    />
+    <h4>Setting up the Slideshow section</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <b>Add the Slideshow Section:</b> In the Theme editor sidebar, click
+          Add section. Scroll to and select the Slideshow section.
+        </li>
+        <li>
+          <p>
+            <b>Upload Images:</b> In the Slideshow settings, click on each slide
+            to add an image. You can upload or select images from your library.
+            Adjust the settings for each slide, such as alignment, text overlay
+            and opacity to ensure it displays correctly across all devices. We
+            recommend uploading a dedicate mobile image with a square aspect
+            ratio.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="slideshow block settings image goes here"
+          />
+        </li>
+        <li>
+          <p>
+            <b>Customize Settings:</b> Configure the slideshow settings to match
+            your desired user experience. This includes:
+          </p>
+          <ul>
+            <li>
+              <b>Autoplay:</b> Toggle whether the slideshow automatically cycles
+              through each slide.
+            </li>
+            <li>
+              <b>Autoplay Speed:</b> Set the duration each slide remains visible
+              before transitioning to the next slide.
+            </li>
+            <li>
+              <b>Arrows and Pagination:</b> Choose whether to show the
+              pagination style as Dots or as buttons. You can set pagination
+              style separately for desktop and mobile devices.
+            </li>
+          </ul>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="slideshow settings image goes here"
+          />
+        </li>
+        <li>
+          <b>Preview and Save:</b> Use the preview option to see how the footer
+          looks on different devices. Once satisfied with the configuration,
+          click ‘Save’ to apply the changes.
+        </li>
+      </ol>
+    </article>
+    <p>
+      Ensure your images are optimized for the web to improve loading times and
+      maintain image quality across all devices. Consider the mobile experience,
+      as the text overlays and buttons need to be legible on smaller screens.
+    </p>
+  </article>
+  <article id="collection-list" class="theme-doc__main__body">
+    <h1>Collection list</h1>
+    <p>
+      The Collection list section is a way to showcase the product catergories
+      for your store. This section is ideal for stores with a wide range of
+      products that can be grouped into different collections.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Collectio list image goes here"
+    />
+    <h4>Setting up the Collection list section</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <b>Add the Collection list Section:</b> In the Theme editor sidebar,
+          click Add section. Scroll to and select the Collection list section.
+        </li>
+        <li>
+          <p>
+            <b>Customize Settings:</b> Configure the collection list settings to
+            match your desired user experience. This includes:
+          </p>
+          <ul>
+            <li>
+              <b>Autoplay:</b> Toggle whether the slideshow automatically cycles
+              through each slide.
+            </li>
+            <li>
+              <b>Autoplay Speed:</b> Set the duration each slide remains visible
+              before transitioning to the next slide.
+            </li>
+            <li>
+              <b>Arrows and Pagination:</b> Choose whether to show the
+              pagination style as Dots or as a Counter. You can set pagination
+              style separately for desktop and mobile devices.
+            </li>
+          </ul>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="Collection list settings image goes here"
+          />
+        </li>
+        <li>
+          <p>
+            <b>Add Blocks:</b> Click ‘Add block’ to include block to showcase
+            the collections you want to showcase in this section.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="collection add blocks and block settings image goes here"
+          />
+          <p>
+            For each block, set the collection and a background color for the
+            block.
+          </p>
+        </li>
+        <li>
+          <b>Preview and Save:</b> Use the preview option to see how the footer
+          looks on different devices. Once satisfied with the configuration,
+          click ‘Save’ to apply the changes.
+        </li>
+      </ol>
+    </article>
+    <p>Ensure the blocks are optimized across all devices.</p>
+  </article>
+  <article id="featured-collection" class="theme-doc__main__body">
+    <h1>Featured collection</h1>
+    <p>
+      The Featured collection section is a way to showcase the products of your
+      top performing collection in carousal.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Featured collection image goes here"
+    />
+    <h4>Setting up the Featured collection section</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <b>Add the Featured collection Section:</b> In the Theme editor
+          sidebar, click Add section. Scroll to and select the Featured
+          collection section.
+        </li>
+        <li>
+          <b>Add collection:</b> In the Theme editor sidebar, navigate to
+          Featured collection > collection. Select a collection to showcase the
+          products from that collection.
+        </li>
+        <li>
+          <p>
+            <b>Customize Settings:</b> Configure the featured collection
+            settings to match your desired user experience. This includes:
+          </p>
+          <ul>
+            <li>
+              <b>Autoplay:</b> Toggle whether the slideshow automatically cycles
+              through each slide.
+            </li>
+            <li>
+              <b>Autoplay Speed:</b> Set the duration each slide remains visible
+              before transitioning to the next slide.
+            </li>
+            <li>
+              <b>Arrows and Pagination:</b> Choose whether to show the
+              pagination style as Dots or as a Counter. You can set pagination
+              style separately for desktop and mobile devices.
+            </li>
+          </ul>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="featured collection settings image goes here"
+          />
+        </li>
+        <li>
+          <p>
+            <b>Adjust product card:</b> From the featured collection section
+            adjust the settings to modify the product cards to your liking.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="featured collection product card settings image goes here"
+          />
+          <p>
+            You can also adjust other settings like description, maximum product
+            count, view all style etc from here.
+          </p>
+        </li>
+        <li>
+          <b>Preview and Save:</b> Use the preview option to see how the section
+          looks on different devices. Once satisfied with the configuration,
+          click ‘Save’ to apply the changes.
+        </li>
+      </ol>
+    </article>
+    <p>Ensure the blocks are optimized across all devices.</p>
+  </article>
+  <article id="collection-banner" class="theme-doc__main__body">
+    <h1>Collection banner</h1>
+    <p>
+      The Collection banner section is a promotional section that you can use to
+      showcase any store promotions or any collection thats preforming well.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Collection banner image goes here"
+    />
+    <h4>Setting up the Collection banner section</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <b>Add the Collection banner Section:</b> In the Theme editor sidebar,
+          click Add section. Scroll to and select the Collection banner section.
+        </li>
+        <li>
+          <p>
+            <b>Add Blocks:</b> Click ‘Add block’ to add your promotional block.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="Collection banner block settings image goes here"
+          />
+          <p>
+            For each block, you can djust the ‘heading’, ‘subheading’ and the
+            ‘button link’.
+          </p>
+        </li>
+        <li>
+          <b>Preview and Save:</b> Use the preview option to see how the section
+          looks on different devices. Once satisfied with the configuration,
+          click ‘Save’ to apply the changes.
+        </li>
+      </ol>
+    </article>
+    <p>Ensure the blocks are optimized across all devices.</p>
+  </article>
+  <article id="text-column-icon" class="theme-doc__main__body">
+    <h1>Text columns with icons</h1>
+    <p>
+      This section is for highlighting your services with relevant icons and
+      text.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Text columns with icons image goes here"
+    />
+    <h4>Setting up the Text columns with icons section</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <b>Add the Text columns with icons Section:</b> In the Theme editor
+          sidebar, click Add section. Scroll to and select the Text columns with
+          icons section.
+        </li>
+        <li>
+          <b>Adjust items per row:</b> From the section settings adjust 'items
+          per row' to control the number of blocks that you want to show in a
+          row in desktop.
+        </li>
+        <li>
+          <p>
+            <b>Add Blocks:</b> Click ‘Add block’ to add your promotional block.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="Text columns with icons block settings image goes here"
+          />
+          <p>
+            For each block, you can djust the ‘text’, ‘subtext’ and the ‘image’
+            for that block.
+          </p>
+        </li>
+        <li>
+          <b>Preview and Save:</b> Use the preview option to see how the section
+          looks on different devices. Once satisfied with the configuration,
+          click ‘Save’ to apply the changes.
+        </li>
+      </ol>
+    </article>
+    <p>Ensure the blocks are optimized across all devices.</p>
+  </article>
+  <article id="product-deals" class="theme-doc__main__body">
+    <h1>Product deals</h1>
+    <p>
+      This section is for highlighting flash sales in your store. Create urgency
+      with a countdown timer for weekly deals.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Product deals image goes here"
+    />
+    <h4>Setting up the Product deals section</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <b>Add the Product deals Section:</b> In the Theme editor sidebar,
+          click Add section. Scroll to and select the Product deals section.
+        </li>
+        <li>
+          <p>
+            <b>Add products:</b> Click ‘Add products’ to add products to your
+            section.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="Product deals add product settings image goes here"
+          />
+        </li>
+        <li>
+          <p>
+            <b>Adjust countdown timer:</b> From the section settings adjust 'end
+            time' and 'end date' to control the countdown timer in your section.
+            You can also adjust the color, background image and text color for
+            the countdown timer.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="Product deals settings image goes here"
+          />
+        </li>
+        <li>
+          <b>Preview and Save:</b> Use the preview option to see how the section
+          looks on different devices. Once satisfied with the configuration,
+          click ‘Save’ to apply the changes.
+        </li>
+      </ol>
+    </article>
+    <p>
+      Regularly update this section to keep it relevant. Keep the countdown end
+      time up to date. Ensure the blocks are optimized across all devices.
+    </p>
+  </article>
+  <article id="testimonial" class="theme-doc__main__body">
+    <h1>Testimonial</h1>
+    <p>
+      The Testimonial section is a way to showcase the customer feedbacks of
+      your store. This addes credibility to your services.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="testimonial image goes here"
+    />
+    <h4>Setting up the Testimonial section</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <b>Add the Testimonial Section:</b> In the Theme editor sidebar, click
+          Add section. Scroll to and select the Testimonial section.
+        </li>
+        <li>
+          <p>
+            <b>Add reviews:</b> In the Theme editor sidebar, navigate to
+            Testimonial > Add reviews. Customize the review content from the
+            editor.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="testimonial block settings image goes here"
+          />
+        </li>
+        <li>
+          <p>
+            <b>Customize Settings:</b> Configure the featured collection
+            settings to match your desired user experience. This includes:
+          </p>
+          <ul>
+            <li>
+              <b>Heading text and color scheme:</b> Customize the heading text
+              to your liking and the color scheme for the section.
+            </li>
+            <li>
+              <b>Arrows and Pagination:</b> Choose whether to show the
+              pagination style as Dots or as a Counter. You can set pagination
+              style separately for desktop and mobile devices.
+            </li>
+          </ul>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="testimonial settings image goes here"
+          />
+        </li>
+        <li>
+          <b>Preview and Save:</b> Use the preview option to see how the section
+          looks on different devices. Once satisfied with the configuration,
+          click ‘Save’ to apply the changes.
+        </li>
+      </ol>
+    </article>
+    <p>Ensure the blocks are optimized across all devices.</p>
+  </article>
+  <article id="newsletter" class="theme-doc__main__body">
+    <h1>Newsletter</h1>
+    <p>
+      The Newsletter section is a way for your visitors to subscribe to your
+      newsletter service.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="newsletter image goes here"
+    />
+    <h4>Setting up the Newsletter section</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <b>Add the Newsletter Section:</b> In the Theme editor sidebar, click
+          Add section. Scroll to and select the Newsletter section.
+        </li>
+        <li>
+          <p>
+            <b>Adjust background & button:</b> From the section settings adjust
+            the background image for the section. We also recommen to add a
+            separate image with proper resolution for mobile devices. You can
+            also adjust the button color to match your store's branding.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="testimonial block settings image goes here"
+          />
+        </li>
+        <li>
+          <p>
+            <b>Add blocks:</b> In the Theme editor sidebar, navigate to
+            Newsletter > Add blocks. You can add either a heading, subheading or
+            a email form as block.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="testimonial block settings image goes here"
+          />
+        </li>
+        <li>
+          <b>Preview and Save:</b> Use the preview option to see how the section
+          looks on different devices. Once satisfied with the configuration,
+          click ‘Save’ to apply the changes.
+        </li>
+      </ol>
+    </article>
+    <p>Ensure the blocks are optimized across all devices.</p>
+  </article>
+  <article id="promotional-content" class="theme-doc__main__body">
+    <h1>Promotional campaign</h1>
+    <p>
+      This section can showcase multiple promotional contents in a carousal.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="promotional campaign image goes here"
+    />
+    <h4>Setting up the Promotional campaign section</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <b>Add the Promotional campaign Section:</b> In the Theme editor
+          sidebar, click Add section. Scroll to and select the Promotional
+          campaign section.
+        </li>
+        <li>
+          <p>
+            <b>Customize Settings:</b> Configure the section settings to match
+            your desired user experience. This includes:
+          </p>
+          <ul>
+            <li>
+              <b>Autoplay:</b> Toggle whether the section automatically cycles
+              through each block.
+            </li>
+            <li>
+              <b>Autoplay Speed:</b> Set the duration each block remains visible
+              before transitioning to the next block.
+            </li>
+            <li>
+              <b>Arrows and Pagination:</b> Choose whether to show the
+              pagination style as Dots or as buttons. You can set pagination
+              style separately for desktop and mobile devices.
+            </li>
+          </ul>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="slideshow settings image goes here"
+          />
+        </li>
+        <li>
+          <p>
+            <b>Add blocks:</b> In the Theme editor sidebar, navigate to
+            Promotional campaign > Add offer card.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="testimonial block settings image goes here"
+          />
+          <p>
+            For each offer card you can adjust the title, description and link
+            to the offer.
+          </p>
+        </li>
+        <li>
+          <b>Preview and Save:</b> Use the preview option to see how the section
+          looks on different devices. Once satisfied with the configuration,
+          click ‘Save’ to apply the changes.
+        </li>
+      </ol>
+    </article>
+    <p>Ensure the blocks are optimized across all devices.</p>
+  </article>
+  <article id="product-page" class="theme-doc__main__body">
+    <h1>Product page</h1>
+    <p>
+      The product page is a critical part of your Shopify store, where customers
+      make the decision to purchase. It’s essential to configure this page
+      carefully to provide all the necessary product information in a clear and
+      appealing manner.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Product page image goes here"
+    />
+    <h4>Setting Up the Product page</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Access the Theme Editor</b>
+          <ol>
+            <li>Log in to your Shopify admin dashboard.</li>
+            <li>Go to ‘Online Store’ and then ‘Themes’.</li>
+            <li>
+              Find your active theme and click on ‘Customize’ to open the theme
+              editor.
+            </li>
+          </ol>
+        </li>
+        <li>
+          <b>Navigate to the Product Page:</b> In the dropdown at the top of the
+          theme editor, click on ‘Products’ and then ‘Default product’ to access
+          the settings for this template. In the left hand side panel click on
+          ‘Main product’ and this will bring up the options specific to product
+          page configurations.
+        </li>
+        <li>
+          <b>Adjust the settings:</b> Refer to the sections within this guide
+          for more.
+        </li>
+        <li>
+          <b>Preview and Test:</b> Use the theme editor’s preview feature to
+          view your changes in real-time. Check the display on various devices
+          and browsers to ensure compatibility and responsiveness.
+        </li>
+        <li>
+          <b>Save and Publish:</b> Once you are satisfied with the setup, click
+          ‘Save’ to apply the changes to your live site. Regularly revisit the
+          product page settings to tweak and optimize based on customer feedback
+          and performance analytics.
+        </li>
+      </ol>
+    </article>
+    <h4>Product media</h4>
+    <p>
+      Bloom offers a flexible layout for product media in the product page You
+      can adjust the media position and width for desktop devices.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Product page desktop media settings image goes here"
+    />
+    <p>
+      For mobile devices Bloom uses a carousal to showcase your media. You can
+      adjust the carousal settings from 'Main product' section inside the
+      product page
+    </p>
+    <h4>Blocks</h4>
+    <p>
+      Bloom features a flexible layout structure that lets you choose the
+      position for the blocks inside the product page.
+    </p>
+    <article
+      style="display: flex; justify-content: space-between; margin-left: 0"
+    >
+      <div style="width: 30%">
+        <h5>Title</h5>
+        <p>Shows the product title</p>
+        <h5>Description</h5>
+        <p>Displays product description set from the admin side</p>
+        <h5>Price</h5>
+        <p>Displays product price and unit price set from the admin side</p>
+        <h5>Variant picker</h5>
+        <p>
+          Displays the variant picker for the product. This section also shows
+          the product swatch id it's enabled from the admin side
+        </p>
+        <h5>Product rating</h5>
+        <p>Displays product rating</p>
+        <h5>Inventory status</h5>
+        <p>Displays the current inventory stuatus for the product.</p>
+        <h5>Tags</h5>
+        <p>Displays product tags</p>
+        <h5>Weight</h5>
+        <p>Displays product weight information</p>
+      </div>
+      <div>
+        <img
+          src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+          alt="Product page main product settings image goes here"
+        />
+      </div>
+    </article>
+    <article>
+      <h5>Quantity selector</h5>
+      <p>Displays the quantity selector for the product.</p>
+      <h5>Buy buttons</h5>
+      <p>
+        Bloom offers accelerated checkout options at product page, You can
+        enable this from the buy buttons block in the main product section.
+      </p>
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+        alt="Product buy button image goes here"
+      />
+      <h5>Payment options</h5>
+      <p>This block shows the payment options available for the product.</p>
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+        alt="Product payment methods image goes here"
+      />
+      <h5>Collapsible row</h5>
+      <p>This block shows additional information about the product.</p>
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+        alt="Product collapsible row image goes here"
+      />
+    </article>
+    <h4>Product recommendations</h4>
+    <p>
+      Displays the related products in the product page. The related products
+      are set by using the search and discovery app by shopify.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Product page related product image goes here"
+    />
+    <p>
+      You can adjust the product card style, autoplay settings and pagination
+      layout from this section.
+    </p>
+  </article>
+  <article id="collection-page" class="theme-doc__main__body">
+    <h1>Collection page</h1>
+    <p>
+      The Collection template in the Bloom theme allows you to show and organize
+      your products efficiently, in an SEO-friendly way.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Collection page image goes here"
+    />
+    <h4>Setting Up the Collection page</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Access the Theme Editor</b>
+          <ol>
+            <li>Log in to your Shopify admin dashboard.</li>
+            <li>Go to ‘Online Store’ and then ‘Themes’.</li>
+            <li>
+              Find your active theme and click on ‘Customize’ to open the theme
+              editor.
+            </li>
+          </ol>
+        </li>
+        <li>
+          <b>Navigate to the Collection Page:</b> In the dropdown at the top of
+          the theme editor, click on ‘Collecions’ and then ‘Default collection’
+          to access the settings for this template. In the left hand side panel
+          click on ‘Product grid’ and this will bring up the options specific to
+          product grid configurations in the collection page.
+        </li>
+        <li>
+          <b>Adjust the settings:</b> Adjust the product grid settings to your
+          liking.
+        </li>
+        <li>
+          <b>Preview and Test:</b> Use the theme editor’s preview feature to
+          view your changes in real-time. Check the display on various devices
+          and browsers to ensure compatibility and responsiveness.
+        </li>
+        <li>
+          <b>Save and Publish:</b> Once you are satisfied with the setup, click
+          ‘Save’ to apply the changes to your live site. Regularly revisit the
+          product page settings to tweak and optimize based on customer feedback
+          and performance analytics.
+        </li>
+      </ol>
+    </article>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Collection page settings image goes here"
+    />
+  </article>
+  <article id="article-page" class="theme-doc__main__body">
+    <h1>Blog post page</h1>
+    <p>
+      The Blog post template in the Bloom theme allows you to showcase your blog
+      articles efficiently, in an SEO-friendly way.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="article page image goes here"
+    />
+    <h4>Setting Up the Blog post page</h4>
+    <article>
+      <ol>
+        <li>
+          <b>Access the Theme Editor</b>
+          <ol>
+            <li>Log in to your Shopify admin dashboard.</li>
+            <li>Go to ‘Online Store’ and then ‘Themes’.</li>
+            <li>
+              Find your active theme and click on ‘Customize’ to open the theme
+              editor.
+            </li>
+          </ol>
+        </li>
+        <li>
+          <b>Navigate to the Blog posts page:</b> In the dropdown at the top of
+          the theme editor, click on ‘Blog posts’ and then ‘Default blog post’
+          to access the settings for this template. In the left hand side panel
+          click on ‘Blog post’ and this will bring up the options specific to
+          Blog post configurations in the Blog post page.
+        </li>
+        <li>
+          <b>Adjust the settings:</b> Adjust the blog post and settings to your
+          liking.
+        </li>
+        <li>
+          <b>Preview and Test:</b> Use the theme editor’s preview feature to
+          view your changes in real-time. Check the display on various devices
+          and browsers to ensure compatibility and responsiveness.
+        </li>
+        <li>
+          <b>Save and Publish:</b> Once you are satisfied with the setup, click
+          ‘Save’ to apply the changes to your live site. Regularly revisit the
+          product page settings to tweak and optimize based on customer feedback
+          and performance analytics.
+        </li>
+      </ol>
+    </article>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Blog post page settings image goes here"
+    />
+  </article>
+  <article id="typography" class="theme-doc__main__body">
+    <h1>Typography</h1>
+    <p>
+      Typography settings in the Bloom theme allow you to customize the fonts
+      and text appearance across your entire Shopify store. Properly setting up
+      your typography can enhance readability, improve user experience and
+      ensure your store’s aesthetics align with your brand identity.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Typography settings image goes here"
+    />
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <p>
+            <b>Navigate to Typography Settings:</b> In the Theme editor sidebar,
+            click on Typography under the Theme Settings menu. This will bring
+            up options for customizing fonts throughout your store.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="Typography settings image goes here"
+          />
+        </li>
+        <li>
+          <p>
+            <b>Customize Headings:</b> Within the Typography settings, you can
+            choose a font for your headings. This includes selecting a specific
+            type family and adjusting the font weight. You have the ability to
+            set the size, letter spacing and text capitalization (such as
+            uppercase, lowercase, or capitalize).
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Adjust Body Text:</b> Similar options are available for body
+            text. Choose a comfortable font size to ensure that your text is
+            easy to read on all devices. Adjustments here affect all regular
+            text on your site, including paragraph text in blogs and product
+            descriptions.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Preview Changes:</b> Use the theme preview feature to see how
+            your new typography settings look in real-time. Adjust as necessary
+            to get the perfect appearance for your store.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Save Your Settings:</b> Once you are satisfied with your
+            typography settings, be sure to click Save to apply the changes
+            across your store.
+          </p>
+        </li>
+      </ol>
+    </article>
+    <p>
+      <b>Note:</b> When selecting fonts, consider the impact on site
+      performance. More font styles or heavier fonts can increase page load
+      times, which might affect user experience and SEO. If in doubt, opt for
+      system fonts or those with minimal weights.
+    </p>
+  </article>
+  <article id="item-cards" class="theme-doc__main__body">
+    <h1>Item cards</h1>
+    <p>
+      The Item Cards consist of product, collection and blog settings in the
+      Bloom theme allow for detailed customization of how these items are
+      displayed across your store. These settings are crucial for creating a
+      visually appealing and cohesive shopping experience that can drive
+      conversions and enhance user engagement.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Item card settings image goes here"
+    />
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <p>
+            <b>Navigate to any Item card Settings:</b> In the Theme editor
+            sidebar, click on any of the product, blog, collection card under
+            the Theme Settings menu. This will bring up options for customizing
+            them your store.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="item card settings image goes here"
+          />
+        </li>
+        <li>
+          <p>
+            <b>Adjust card style:</b> Adjust the border, shadow, padding to
+            match your websites style
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Preview Changes:</b> Use the theme preview feature to see how
+            your new typography settings look in real-time. Adjust as necessary
+            to get the perfect appearance for your store.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Save Your Settings:</b> Once you are satisfied with your
+            typography settings, be sure to click Save to apply the changes
+            across your store.
+          </p>
+        </li>
+      </ol>
+    </article>
+  </article>
+  <article id="common-elements" class="theme-doc__main__body">
+    <h1>Cart & Common elements</h1>
+    <p>
+      Some commmon elements throughout the store like cart, button, inputs can
+      be globally customized from the theme settings.
+    </p>
+    <img
+      src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+      alt="Item card settings image goes here"
+    />
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <p>
+            <b>Navigate to any common element Settings:</b> In the Theme editor
+            sidebar, click on any of the button, input, cart under the Theme
+            Settings menu. This will bring up options for customizing them your
+            store.
+          </p>
+          <img
+            src="{{site.baseurl}}/assets/images/bloom-v1.0.0/bloom-logo.png"
+            alt="common element settings image goes here"
+          />
+        </li>
+        <li>
+          <p>
+            <b>Adjust element style:</b> Adjust the border, shadow, padding to
+            match your websites style
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Preview Changes:</b> Use the theme preview feature to see how
+            your new typography settings look in real-time. Adjust as necessary
+            to get the perfect appearance for your store.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Save Your Settings:</b> Once you are satisfied with your
+            typography settings, be sure to click Save to apply the changes
+            across your store.
+          </p>
+        </li>
+      </ol>
+    </article>
+  </article>
+  <article id="color-scheme" class="theme-doc__main__body">
+    <h1>Color schemes</h1>
+    <p>
+      The Colors settings in the Bloom theme provide the flexibility to tailor
+      the color palette of your Shopify store to match your brand’s identity.
+    </p>
+    <p>
+      This feature utilizes Shopify’s color schemes, allowing you to maintain
+      consistency and enhance the visual appeal of your store effectively. For
+      more, refer to
+      <a
+        href="https://help.shopify.com/en/manual/online-store/themes/theme-structure/color-scheme?irgwc=1&partner=5799233&affpt=excluded&utm_channel=affiliates&utm_source=5799233-impact&utm_medium=cpa&iradid=1061744"
+        >Shopify’s color scheme documentation</a
+      >.
+    </p>
+    <article>
+      <ol>
+        <li>
+          <b>Navigate to the Theme Editor:</b> From your Shopify admin
+          dashboard, go to Online Store and click on Themes. Find the Bloom
+          theme and click Customize.
+        </li>
+        <li>
+          <p>
+            <b>Open the Colors Setting:</b> In the Theme editor, navigate to
+            Theme settings and select Colors. Here you will see the six
+            predefined color schemes that come with your Bloom theme. In each
+            color scheme, various color settings can be adjusted, such as
+            background, text, links and buttons. By clicking on Add Scheme,
+            further ones can be added.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Adjust Color Schemes:</b> You can set different color schemes for
+            various elements of your store. Adjust the background colors, text
+            colors, button colors and link colors within each scheme. Each color
+            setting may include the ability to set solid colors or utilize
+            gradients, providing further customization.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Preview Your Color Choices:</b> As you make changes, use the
+            theme’s preview feature to see how your choices affect the look of
+            your store. This step is crucial to ensure that your color choices
+            work well together and are comfortable for your visitors to view.
+          </p>
+        </li>
+        <li>
+          <p>
+            <b>Save Your Changes:</b> Once you are satisfied with your color
+            settings, click Save to apply them to your live site.
+          </p>
+        </li>
+      </ol>
+    </article>
+    <p>
+      Colors play a critical role in user experience and brand perception.
+      Choose colors that reflect your brand but also consider usability and
+      accessibility. For instance, ensure there is good visual balance and
+      sufficient contrast between text and background colors to ensure
+      readability for all users.
+    </p>
   </article>
 </section>
-
-<!-- <section>
-  <div class="theme-title__section">
-    <h1 class="theme-title">Bloom</h1>
-  </div>
-
-  <div class="main__content">
-    <div class="theme-introduction">
-      Welcome to the Bloom Shopify theme documentation. Bloom is a
-      fully-featured theme that has been designed to provide you with a
-      flexible, customizable, and responsive platform for your online store. In
-      this document, we will cover the features of the Bloom theme and explain
-      how you can make the most of its capabilities to create an exceptional
-      shopping experience for your customers. It is fully compatible with the
-      featured of Online Store 2.0.
-    </div>
-
-    <br />
-
-    <div class="theme-summary">
-      <h2>Summary</h2>
-
-      <div>
-        Bloom is a powerful and versatile Shopify theme that is perfect for any
-        type of online store. It features a dynamic layout, customizable headers
-        for desktop and mobile, responsive design, powerful product filters,
-        media grid, FAQ, and 15+ custom sections that you can use to create a
-        unique and engaging shopping experience for your customers. Bloom also
-        supports video sections, quick add to cart, secure payment options,
-        smooth animations, and optimized performance, making it an ideal choice
-        for businesses of any size.
-      </div>
-    </div>
-
-    <br />
-
-    <div class="theme-features">
-      <h2>Features</h2>
-
-      <div style="padding-left: 1rem">
-        <div class="dynamic-layout-heading">
-          <h3
-            class="features-heading dynamic-layout-heading"
-            onclick="collapseContent('dynamic-layout-heading')"
-          >
-            Dynamic Layout
-
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                class="icon icon-plus"
-                fill="none"
-                viewBox="0 0 10 10"
-                width="20px"
-                height="20px"
-              >
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
-              </svg>
-
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                class="icon icon-minus theme-content--hide"
-                fill="none"
-                viewBox="0 0 10 2"
-                width="20px"
-                height="20px"
-              >
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor">
-              </svg>
-
-            </span>
-          </h3>
-
-          <div
-            class="theme-content theme-content__padding theme-content--hide dynamic-layout__content"
-          >
-            Bloom's dynamic layout allows you to easily customize the appearance
-            of your store. With a few clicks, you can choose from a range of
-            preset layouts or create your own unique design. The theme includes
-            a range of customizable sections, such as:
-
-            <div>
-              <h4>Sections</h4>
-
-              <hr />
-
-              <div class="theme-sections__item">
-                <h4>Featured product</h4>
-
-                <img src="{{site.baseurl}}/assets/images/bloom-v1.0.0/featured-product.png" />
-
-                <div>
-                  With the Featured Product section, merchants can create
-                  eye-catching displays that effectively promote their products
-                  and increase sales.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Slideshow</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/slideshow.PNG"
-                  alt="Slideshow"
-                />
-
-                <div>
-                  With the Slideshow section, merchants can create visually
-                  appealing and interactive displays that leave a lasting
-                  impression on their customers. This section is commonly used
-                  on the homepage, landing pages, or promotional sections to
-                  showcase multiple images or messages in a dynamic and
-                  eye-catching manner.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Featured collection</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/featured-collection.PNG"
-                  alt="Featured Collection"
-                />
-
-                <div>
-                  Featured Collection section is a customizable section that
-                  allows merchants to showcase a specific collection of products
-                  prominently on their online store. It provides an opportunity
-                  to highlight selected products, promotions, or special
-                  collections to attract customer attention and drive sales.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Collection list</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/collection-list.PNG"
-                  alt="Collection List"
-                />
-
-                <div>
-                  Collection List section is a versatile component that allows
-                  merchants to display multiple collections of products on their
-                  online store. It enables them to showcase a range of curated
-                  collections or product groups in a visually appealing and
-                  organized manner.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Image with text</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/image-with-text.PNG"
-                  alt="Image with text"
-                />
-
-                <div>
-                  Image with Text section allows merchants to display a
-                  combination of image and accompanying text on their online
-                  store. It provides an engaging way to present information,
-                  tell a story, or highlight specific message.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Icon with text</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/icon-with-text.PNG"
-                  alt="Icon with text"
-                />
-
-                <div>
-                  Image with Icon section allows merchants to display store
-                  information. Example can be shipping & returns, support etc.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Product list</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/product-list.PNG"
-                  alt="Product list"
-                />
-
-                <div>
-                  Product List section is a section that displays a list of products.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Multicolumn</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/multicolumn.PNG"
-                  alt="Multicolumn"
-                />
-
-                <div>
-                  A section with multiple columns. It provides a way to organize
-                  and display various content, such as product collections,
-                  blogs products all together in a single place.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Multirow</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/multirow.PNG"
-                  alt="Multirow"
-                />
-
-                <div>
-                  A section with multiple rows. It provides a way to organize
-                  and display various content, such as product collections,
-                  blogs products all together in a single place.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Testimonial</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/testimonial.PNG"
-                  alt="Testimonial"
-                />
-
-                <div>
-                  Testimonial section is a powerful feature that allows
-                  merchants to showcase customer testimonials and reviews or any
-                  other information on their online store. It provides social
-                  proof and builds trust by featuring positive feedback from
-                  satisfied customers.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Video</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/video.png"
-                  alt="Video"
-                />
-
-                <div>
-                  Video section allows merchants to incorporate videos into
-                  their online store. It provides an engaging way to showcase
-                  product demonstrations, brand stories, promotional videos, or
-                  any other video content to captivate and inform customers.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Featured blog</h4>
-
-                <img src="{{site.baseurl}}/assets/images/bloom-v1.0.0/featured-blog.png" />
-
-                <div>
-                  Featured Blog is another effective effective section that
-                  allows merchants to showcase and highlight specific blog posts
-                  on their online store. It provides a platform to draw
-                  attention to valuable content, news, updates, or articles that
-                  can engage and inform customers.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Contact form</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/contact-form.PNG"
-                  alt="Contact form"
-                />
-
-                <div>
-                  Include contact form in any page. This section provides a
-                  convenient way for customers to reach out, ask questions,
-                  provide feedback, or inquire about products and services.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Countdown</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/countdown.PNG"
-                  alt="Countdown"
-                />
-
-                <div>
-                  Countdown section is a customizable component you can add to your Shopify store to create a sense of urgency and encourage customers to take immediate action, such as making a purchase or signing up for a promotion. It typically displays a countdown timer that indicates the time left until a specific event, sale, or offer ends.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Richtext</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/richtext.PNG"
-                  alt="richtext"
-                />
-
-                <div>
-                  With the Rich Text section, you can easily add and style content to communicate your brand's message effectively.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Collapsible content</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/collapsible-content.png"
-                  alt="collapsible content"
-                />
-
-                <div>
-                  This section allows you to create a content block that users can expand or collapse to reveal or hide additional information. This feature is particularly useful when you want to provide detailed information or instructions without overwhelming the user with a long block of text.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Image banner</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/image-banner.PNG"
-                  alt="image banner"
-                />
-
-                <div>
-                  Allows you to prominently display an image with a text overlay or a call-to-action button on your store's pages. This section is often used to create visually appealing and attention-grabbing banners for promotions, announcements, or showcasing products.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Collage</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/collage.png"
-                  alt="collage"
-                />
-
-                <div>
-                  A collage section is a visually appealing component that allows you to display image, video, collection, product all together in a creative and organized layout. 
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Stack image</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/stack-image.PNG"
-                  alt="stack image"
-                />
-
-                <div>
-                  Display a series of images, creating a visually appealing and organized presentation. This type of section is often used to showcase a collection of products, highlight features, or create an eye-catching visual element on your store's pages.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Autoplay text</h4>
-
-                <div>
-                  An autoplay text section is a dynamic element that displays a series of text content items one after the other automatically.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Page</h4>
-
-                <div>
-                  A page section is to showcase your different page content.
-                </div>
-              </div>
-
-              <div class="theme-sections__item">
-                <h4>Newsletter</h4>
-
-                <img
-                  src="{{site.baseurl}}/assets/images/bloom-v1.0.0/newsletter.PNG"
-                  alt="Newsletter"
-                />
-
-                <div>
-                  Another bloom theme feature that allows merchants to collect
-                  email addresses and build a subscriber base for their
-                  newsletter or email marketing campaigns. It provides an
-                  effective way to capture leads, engage customers, and promote
-                  products and updates through regular newsletters.
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="dynamic-color">
-          <h3
-            class="features-heading"
-            onclick="collapseContent('dynamic-color')"
-          >
-            Dynamic color
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                class="icon icon-plus"
-                fill="none"
-                viewBox="0 0 10 10"
-                width="20px"
-                height="20px"
-              >
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
-              </svg>
-
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                class="icon icon-minus theme-content--hide"
-                fill="none"
-                viewBox="0 0 10 2"
-                width="20px"
-                height="20px"
-              >
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor">
-              </svg>
-
-            </span>
-          </h3>
-
-          <div
-            class="theme-content theme-content__padding theme-content--hide dynamic-color__content"
-          >
-            With Bloom's dynamic color feature, you can change the color scheme
-            of your store with ease. Add new color scheme according to need. Each color scheme has these following options:
-
-            <ul style="margin-left: 1rem;">
-              <li style="list-style-type: none;">
-                <h5>Main: </h5>
-                <p><b>Text: </b>Text color of the section</p>
-                <p><b>Background: </b>Background color of the section</p>
-                <p><b>Gradient: </b>Gradient background color of the section <small>(If gradient background is present, it will override <i><b>Background</b></i> color setting)</small></p>
-                <p><b>Solid button background: </b>Background color of solid button</p>
-                <p><b>Solid button text: </b>Text color of solid button</p>
-                <p><b>Outline button text: </b>Text and border color of outline button</p>
-                <p><b>Link: </b>Text color of link</p>
-                <p><b>Icon: </b>Icon color <small>(This is not applied for icons used in solid button, outline button, link and form inputs. But used as hover color in some portions.)</small></p>
-                <h5>Additional:</h5>
-                <p><b>Tag and ratings: </b>Used for tags and ratings color</p>
-                <p><b>Stock out badge: </b>Stock out badge color </p>
-                <p><b>In stock badge: </b>In stock badge color</p>
-              </li>
-            </ul>
-          </div>
-        </div>
-
-        <div class="responsive-design">
-          <h3
-            class="features-heading"
-            onclick="collapseContent('responsive-design')"
-          >
-            Responsive Design
-
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                class="icon icon-plus"
-                fill="none"
-                viewBox="0 0 10 10"
-                width="20px"
-                height="20px"
-              >
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
-              </svg>
-
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                class="icon icon-minus theme-content--hide"
-                fill="none"
-                viewBox="0 0 10 2"
-                width="20px"
-                height="20px"
-              >
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor">
-              </svg>
-
-            </span>
-          </h3>
-
-          <div
-            class="theme-content theme-content__padding theme-content--hide responsive-design__content"
-          >
-            Bloom is fully responsive, which means it looks great on all
-            devices, including desktops, tablets, and smartphones. The theme
-            automatically adjusts the layout and design to ensure your store
-            looks its best on any device.
-          </div>
-        </div>
-
-        <div class="quick-add-to-cart">
-          <h3
-            class="features-heading"
-            onclick="collapseContent('quick-add-to-cart')"
-          >
-            Quick Add to Cart
-
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                class="icon icon-plus"
-                fill="none"
-                viewBox="0 0 10 10"
-                width="20px"
-                height="20px"
-              >
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
-              </svg>
-
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                class="icon icon-minus theme-content--hide"
-                fill="none"
-                viewBox="0 0 10 2"
-                width="20px"
-                height="20px"
-              >
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor">
-              </svg>
-
-            </span>
-          </h3>
-
-          <div
-            class="theme-content theme-content__padding theme-content--hide add-to-cart__content"
-          >
-            <div>Has 2 cart type: Page, Drawer</div>
-
-            <div>
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/cart-page.PNG"
-                alt="Cart Page"
-              />
-            </div>
-
-            <div>
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/cart-drawer.PNG"
-                alt="Cart Drawer"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div class="multiple-language-support">
-          <h3
-            class="features-heading"
-            onclick="collapseContent('multiple-language-support')"
-          >
-            Multiple Language Support
-
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                class="icon icon-plus"
-                fill="none"
-                viewBox="0 0 10 10"
-                width="20px"
-                height="20px"
-              >
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
-              </svg>
-
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                class="icon icon-minus theme-content--hide"
-                fill="none"
-                viewBox="0 0 10 2"
-                width="20px"
-                height="20px"
-              >
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor">
-              </svg>
-
-            </span>
-          </h3>
-
-          <div
-            class="theme-content theme-content__padding theme-content--hide multiple-language-support__content"
-          >
-            Bloom could be enhanced with multi-language support to enable
-            merchants to sell products in multiple languages. This feature would
-            allow merchants to translate their store content into multiple
-            languages and provide a seamless shopping experience for customers
-            who speak different languages. Supported languages are English, Bengali, French, Japanese, Spanish, Arabic and German.
-          </div>
-        </div>
-
-        <div class="pages-content">
-          <h3
-            class="features-heading"
-            onclick="collapseContent('pages-content')"
-          >
-            Pages
-
-            <span>
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                class="icon icon-plus"
-                fill="none"
-                viewBox="0 0 10 10"
-                width="20px"
-                height="20px"
-              >
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M1 4.51a.5.5 0 000 1h3.5l.01 3.5a.5.5 0 001-.01V5.5l3.5-.01a.5.5 0 00-.01-1H5.5L5.49.99a.5.5 0 00-1 .01v3.5l-3.5.01H1z" fill="currentColor">
-              </svg>
-
-              <svg
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-                focusable="false"
-                class="icon icon-minus theme-content--hide"
-                fill="none"
-                viewBox="0 0 10 2"
-                width="20px"
-                height="20px"
-              >
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M.5 1C.5.7.7.5 1 .5h8a.5.5 0 110 1H1A.5.5 0 01.5 1z" fill="currentColor">
-              </svg>
-
-            </span>
-          </h3>
-
-          <div
-            class="theme-content theme-content__padding theme-content--hide pages__content"
-          >
-            <div class="theme-sections__item">
-              <h4>Product Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/product.png"
-                alt="Product page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Collection Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/individual-collection.png"
-                alt="Collection page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Blogs Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/blogs.png"
-                alt="Blogs page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Article Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/article.png"
-                alt="Article page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>About us Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/aboutus.png"
-                alt="About us page"
-              />
-
-              <div>
-                The About Us page provides an opportunity for merchants to
-                introduce their brand, share their story, and build a connection
-                with customers. It is a valuable page that helps customers
-                understand the values, mission, and unique qualities of the
-                business.
-              </div>
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Contact Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/contactus.png"
-                alt="Contact us page"
-              />
-
-              <div>
-                The Contact page in a Shopify store is a crucial element that
-                provides customers with a direct and convenient way to get in
-                touch with the business.
-              </div>
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>FAQ Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/faq.png"
-                alt="FAQ page"
-              />
-
-              <div>
-                Bloom includes a customizable FAQ page that allows you to
-                provide answers to commonly asked questions. You can customize
-                the appearance of the FAQ section to match the design of your
-                store.
-              </div>
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Shipping & Return Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/shipping-and-returns.png"
-                alt="Shipping and return page"
-              />
-
-              <div>
-                The Shipping and Returns page is an important component that
-                provides customers with information about the store's shipping
-                policies and return process. It helps set clear expectations and
-                builds trust by providing transparent information on how
-                products are shipped and how customers can initiate returns or
-                exchanges.
-              </div>
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Our Story Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/our-story.png"
-                alt="Our story page"
-              />
-
-              <div>
-                This page allows merchants to share the unique narrative and
-                history of their brand. It provides an opportunity to connect
-                with customers on a deeper level, establish authenticity, and
-                differentiate the brand from competitors.
-              </div>
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Privacy Policy Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/privacypolicy.png"
-                alt="Privacy policy page"
-              />
-
-              <div>
-                Merchants can use this page to inform customers about how their
-                personal information is collected, used, and protected by the
-                business. It helps establish trust and transparency by
-                demonstrating a commitment to safeguarding customer privacy.
-              </div>
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Customer Registration Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/registration.png"
-                alt="Customer registration page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Customer Login Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/login.png"
-                alt="Customer login page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Customer Forgot Password Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/forgot-password.png"
-                alt="Customer forgot Password page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Customer Reset Password Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/reset-password.png"
-                alt="Customer reset password page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Customer Account Activation Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/account-activation.png"
-                alt="Customer account activation page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Customer Account Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/account.png"
-                alt="Customer account page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Customer Address Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/address.png"
-                alt="Customer address page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Customer Order Details Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/order-details.png"
-                alt="Customer order details page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Gift Card Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/gift-card.png"
-                alt="Gift card page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>404 Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/404.png"
-                alt="404 page"
-              />
-            </div>
-
-            <div class="theme-sections__item">
-              <h4>Password Page</h4>
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/password1.PNG"
-                alt="Password page"
-              />
-
-              <img
-                src="{{site.baseurl}}/assets/images/bloom-v1.0.0/password2.PNG"
-                alt="Password page"
-              />
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <br />
-
-    <div>
-      <h3>24/7 Support</h3>
-
-      <div>
-        Bloom comes with dedicated 24/7 support to help you get the most out of
-        your theme. Our support team is available around the clock to answer any
-        questions you may have and provide assistance with any issues you
-        encounter. You can contact our support team via email, phone, or live
-        chat.
-      </div>
-
-      <a style="font-size: 25px; color: blue" href="https://brainstation-23.com/contact/"
-        >Contact Us</a
-      >
-    </div>
-
-    <br />
-
-    <div>
-      <h2>Conclusion</h2>
-
-      <div>
-        We hope this documentation has provided you with an overview of the
-        features and capabilities of the Bloom Shopify theme. With its dynamic
-        layout, customizable headers, responsive design, powerful product
-        filters, media grid, and 15+ custom sections, Bloom provides you with a
-        powerful and versatile platform for creating an exceptional shopping
-        experience for your customers. If you have any questions or need further
-        assistance, please don't hesitate to
-        <a href="https://brainstation-23.com/contact/">contact</a> our support
-        team.
-      </div>
-    </div>
-  </div>
-</section> -->
 
 <script>
   function collapseContent(cls) {
@@ -1151,24 +1528,28 @@ comments: false
   }
 
   document.addEventListener("DOMContentLoaded", () => {
-    const links = document.querySelectorAll("details.list-parent > ul a");
+    const links = document.querySelectorAll(
+      "details.list-parent > ul a, .theme-doc__main__body a#internal-link"
+    );
     const bodys = document.querySelectorAll(".theme-doc__main__body");
-      bodys.forEach((body) => {
-        body.classList.add("theme-content--hide");
-      });
+    bodys.forEach((body) => {
+      body.classList.add("theme-content--hide");
+    });
 
-    links.forEach(link => link.addEventListener("click", (e) => {
-      e.preventDefault();
-      const href = e.target.getAttribute("href");
-      const bs = document.querySelectorAll(".theme-doc__main__body");
-      bs.forEach((body) => {
-        body.classList.add("theme-content--hide");
-        if(href == `#${body.id}`) {
-          body.classList.remove("theme-content--hide");
-        }
-      });
-    }));
+    links.forEach((link) =>
+      link.addEventListener("click", (e) => {
+        e.preventDefault();
+        const href = e.target.getAttribute("href");
+        const bs = document.querySelectorAll(".theme-doc__main__body");
+        bs.forEach((body) => {
+          body.classList.add("theme-content--hide");
+          if (href == `#${body.id}`) {
+            body.classList.remove("theme-content--hide");
+          }
+        });
+      })
+    );
 
     links[0].click();
-  })
+  });
 </script>
