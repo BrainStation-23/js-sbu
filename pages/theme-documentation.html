@@ -17,6 +17,7 @@ comments: false
     padding: 1rem;
     border-radius: 20px;
     width: 25%;
+    height: fit-content;
   }
   details.list-parent > summary {
     list-style-type: none;
@@ -41,11 +42,8 @@ comments: false
   /* sidebar end */
 
   /* Main body start */
-  .main__container > article {
-    /* display: none; */
-  }
   .theme-doc__main__body {
-    width: 70%;
+    width: 75%;
   }
   .theme-doc__main__body ul,
   .theme-doc__main__body ol {
@@ -256,10 +254,23 @@ comments: false
       designed to help you make the most of the theme’s features and
       customization options to create a stunning and functional online store.
     </p>
-    <img
-      src="{{site.baseurl}}/assets/images/bloom-v2/home-page.png"
-      alt="Home page image goes here"
-    />
+    <div style="display: flex; gap: 5px">
+      <img
+        style="width: 75%"
+        src="{{site.baseurl}}/assets/images/bloom-v2/home-page.png"
+        alt="Home page image goes here"
+      />
+      <img
+        style="
+          width: 25%;
+          max-height: 389px;
+          object-fit: cover;
+          object-position: top;
+        "
+        src="{{site.baseurl}}/assets/images/bloom-v2/welcome-mobile.png"
+        alt="Home page image goes here"
+      />
+    </div>
     <p>
       The theme is thoughtfully crafted with a balance of elegance and
       functionality, catering to businesses that require a highly flexible and
@@ -300,10 +311,23 @@ comments: false
       customers. It should be clear, well structured, intuitive and reflective
       of your brand’s style.
     </p>
-    <img
-      src="{{site.baseurl}}/assets/images/bloom-v2/header.png"
-      alt="header image goes here"
-    />
+    <div style="display: flex; gap: 5px">
+      <img
+        style="width: 75%"
+        src="{{site.baseurl}}/assets/images/bloom-v2/header.png"
+        alt="header image goes here"
+      />
+      <img
+        style="
+          width: 25%;
+          max-height: 389px;
+          object-fit: cover;
+          object-position: top;
+        "
+        src="{{site.baseurl}}/assets/images/bloom-v2/header-mobile.png"
+        alt="Home page image goes here"
+      />
+    </div>
     <p>Here are the steps to cutomize the header in Bloom theme</p>
     <h4>Setting up the header</h4>
     <article>
@@ -408,10 +432,23 @@ comments: false
       displaying important information like contact details, quick links, and
       social media icons.
     </p>
-    <img
-      src="{{site.baseurl}}/assets/images/bloom-v2/footer.png"
-      alt="footer image goes here"
-    />
+    <div style="display: flex; gap: 5px">
+      <img
+        style="width: 75%"
+        src="{{site.baseurl}}/assets/images/bloom-v2/footer.png"
+        alt="footer image goes here"
+      />
+      <img
+        style="
+          width: 25%;
+          max-height: 389px;
+          object-fit: cover;
+          object-position: top;
+        "
+        src="{{site.baseurl}}/assets/images/bloom-v2/footer-mobile.png"
+        alt="Home page image goes here"
+      />
+    </div>
     <h4>Setting up the Footer section</h4>
     <article>
       <ol>
@@ -497,10 +534,16 @@ comments: false
       images in a carousel format, making it ideal for highlighting featured
       products, promotions, or brand imagery directly on your store’s homepage.
     </p>
-    <img
-      src="{{site.baseurl}}/assets/images/bloom-v2/slideshow.png"
-      alt="Slideshow image goes here"
-    />
+    <div style="display: flex; flex-direction: column; gap: 5px">
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/slideshow.png"
+        alt="Slideshow image goes here"
+      />
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/slideshow-mobile.png"
+        alt="Slideshow mobile image goes here"
+      />
+    </div>
     <h4>Setting up the Slideshow section</h4>
     <article>
       <ol>
@@ -572,10 +615,16 @@ comments: false
       for your store. This section is ideal for stores with a wide range of
       products that can be grouped into different collections.
     </p>
-    <img
-      src="{{site.baseurl}}/assets/images/bloom-v2/collection-list.png"
-      alt="Collectio list image goes here"
-    />
+    <div style="display: flex; flex-direction: column; gap: 5px">
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/collection-list.png"
+        alt="Collectio list image goes here"
+      />
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/collection-list-mobile.png"
+        alt="Collectio list image goes here"
+      />
+    </div>
     <h4>Setting up the Collection list section</h4>
     <article>
       <ol>
@@ -648,10 +697,16 @@ comments: false
       The Featured collection section is a way to showcase the products of your
       top performing collection in carousal.
     </p>
-    <img
-      src="{{site.baseurl}}/assets/images/bloom-v2/featured-collection.png"
-      alt="Featured collection image goes here"
-    />
+    <div style="display: flex; flex-direction: column; gap: 5px">
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/featured-collection.png"
+        alt="Featured collection image goes here"
+      />
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/featured-collection-mobile.png"
+        alt="Featured collection image goes here"
+      />
+    </div>
     <h4>Setting up the Featured collection section</h4>
     <article>
       <ol>
@@ -724,10 +779,16 @@ comments: false
       The Collection banner section is a promotional section that you can use to
       showcase any store promotions or any collection thats preforming well.
     </p>
-    <img
-      src="{{site.baseurl}}/assets/images/bloom-v2/collection-banner.png"
-      alt="Collection banner image goes here"
-    />
+    <div style="display: flex; flex-direction: column; gap: 5px">
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/collection-banner.png"
+        alt="Collection banner image goes here"
+      />
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/collection-banner-mobile.png"
+        alt="Collection banner image goes here"
+      />
+    </div>
     <h4>Setting up the Collection banner section</h4>
     <article>
       <ol>
@@ -768,10 +829,16 @@ comments: false
       This section is for highlighting your services with relevant icons and
       text.
     </p>
-    <img
-      src="{{site.baseurl}}/assets/images/bloom-v2/icon-with-text.png"
-      alt="Text columns with icons image goes here"
-    />
+    <div style="display: flex; flex-direction: column; gap: 5px">
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/icon-with-text.png"
+        alt="Text columns with icons image goes here"
+      />
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/icon-with-text-mobile.png"
+        alt="Text columns with icons image goes here"
+      />
+    </div>
     <h4>Setting up the Text columns with icons section</h4>
     <article>
       <ol>
@@ -818,10 +885,16 @@ comments: false
       This section is for highlighting flash sales in your store. Create urgency
       with a countdown timer for weekly deals.
     </p>
-    <img
-      src="{{site.baseurl}}/assets/images/bloom-v2/product-deals.png"
-      alt="Product deals image goes here"
-    />
+    <div style="display: flex; flex-direction: column; gap: 5px">
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/product-deals.png"
+        alt="Product deals image goes here"
+      />
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/product-deals-mobile.png"
+        alt="Product deals image goes here"
+      />
+    </div>
     <h4>Setting up the Product deals section</h4>
     <article>
       <ol>
@@ -882,10 +955,16 @@ comments: false
       The Testimonial section is a way to showcase the customer feedbacks of
       your store. This addes credibility to your services.
     </p>
-    <img
-      src="{{site.baseurl}}/assets/images/bloom-v2/testimonial.png"
-      alt="testimonial image goes here"
-    />
+    <div style="display: flex; flex-direction: column; gap: 5px">
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/testimonial.png"
+        alt="testimonial image goes here"
+      />
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/testimonial-mobile.png"
+        alt="testimonial image goes here"
+      />
+    </div>
     <h4>Setting up the Testimonial section</h4>
     <article>
       <ol>
@@ -945,10 +1024,16 @@ comments: false
       The Newsletter section is a way for your visitors to subscribe to your
       newsletter service.
     </p>
-    <img
-      src="{{site.baseurl}}/assets/images/bloom-v2/newsletter.png"
-      alt="newsletter image goes here"
-    />
+    <div style="display: flex; flex-direction: column; gap: 5px">
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/newsletter.png"
+        alt="newsletter image goes here"
+      />
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/newsletter-mobile.png"
+        alt="newsletter image goes here"
+      />
+    </div>
     <h4>Setting up the Newsletter section</h4>
     <article>
       <ol>
@@ -998,10 +1083,16 @@ comments: false
     <p>
       This section can showcase multiple promotional contents in a carousal.
     </p>
-    <img
-      src="{{site.baseurl}}/assets/images/bloom-v2/promotiona-campaign.png"
-      alt="promotional campaign image goes here"
-    />
+    <div style="display: flex; flex-direction: column; gap: 5px">
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/promotiona-campaign.png"
+        alt="promotional campaign image goes here"
+      />
+      <img
+        src="{{site.baseurl}}/assets/images/bloom-v2/promotiona-campaign-mobile.png"
+        alt="promotional campaign image goes here"
+      />
+    </div>
     <h4>Setting up the Promotional campaign section</h4>
     <article>
       <ol>
