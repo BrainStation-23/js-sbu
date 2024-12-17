@@ -39,6 +39,9 @@ comments: false
     margin-bottom: 0;
     padding: 7px 0;
   }
+  .link-active {
+    color: #000 !important;
+  }
   /* sidebar end */
 
   /* Main body start */
@@ -99,7 +102,7 @@ comments: false
           </summary>
           <ul>
             <li>
-              <a href="#introduction">Welcome to Bloom</a>
+              <a href="#introduction" class="link-active">Welcome to Bloom</a>
             </li>
           </ul>
         </details>
@@ -281,10 +284,6 @@ comments: false
       <li>
         <b>Dynamic Customization:</b> Effortlessly adjust layouts, colors,
         typography, and sections to align with your branding.
-      </li>
-      <li>
-        <b>Optimized for Speed:</b> Built to deliver fast load times and smooth
-        performance.
       </li>
       <li>
         <b>Mobile-First Approach:</b> Designed to provide a flawless user
@@ -1765,6 +1764,9 @@ comments: false
     links.forEach((link) =>
       link.addEventListener("click", (e) => {
         e.preventDefault();
+        console.log(e.target);
+        links.forEach((l) => l.classList.remove("link-active"));
+        event.target.classList.add("link-active");
         const href = e.target.getAttribute("href");
         const bs = document.querySelectorAll(".theme-doc__main__body");
         bs.forEach((body) => {
