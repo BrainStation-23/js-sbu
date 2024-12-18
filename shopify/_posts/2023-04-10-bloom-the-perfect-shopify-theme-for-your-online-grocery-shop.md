@@ -3,7 +3,8 @@ layout: post
 title: "Bloom: The Perfect Shopify Theme for Your Online Grocery Shop"
 permalink: /shopify/:title
 categories: [Shopify, theme]
-image: assets/images/shopify-theme-bloom.jpg
+image: assets/images/bloom-v2/home-page.png
+doc_page_link: "/js-sbu/theme-documentation"
 author: JS_SBU
 ---
 
